@@ -52,10 +52,39 @@ body{
 
 h1{
     color: white;
+    font-family: 'Comfortaa', cursive;
 }
 .graph{
     margin-top: 50px;
     margin-left: 350px;
+}
+#welcometext{
+ text-align: center;
+ margin-top: 200px;
+ font-size: 25px;
+}
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 13px 0px; 
+  grid-template-areas: 
+    ". . ."
+    ". . ."; 
+  width: 50%; 
+  height: 50%; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 320px;
+  border: 2px solid black ;
+}
+p{
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 20%;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+
 }
 
 
